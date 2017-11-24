@@ -6,14 +6,25 @@ A [MagicMirror²](https://github.com/MichMich/MagicMirror) module that shows sch
 # Install
 1. Clone repo into ../MagicMirror/modules/ folder.
 2. Run "npm install" inside ../MagicMirror/modules/MMM-Skolmaten/ folder.
-3. Add the module to the ../MagicMirror/config/config.js:
+3. Add the module to the ../MagicMirror/config/config.js, example:
 ```
 		{
 			module: 'MMM-Skolmaten',
 			header: 'Furuhällskolan',
 			position: 'bottom_right',
 			config: {
-				url: 'http://skolmaten.se/furuhallskolan/rss/'
+				url: 'https://skolmaten.se/furuhallskolan/rss/'
 			}
 		},
 ```
+
+# Configuration
+Using the https://skolmaten.se/furuhallskolan/rss/ URL will show lunch for the next seven days (including today).
+
+You can choose how many days should be shown by using another URL, although I haven't tested that. More info here:
+https://skolmaten.se/about/rss/furuhallskolan/
+
+# Details
+This module simply shows an RSS feed, with some limitations (which are not a problem with skolmaten.se):
+1. Hard coded to update RSS feed once an hour.
+2. Always shows all entries in the RSS feed.
