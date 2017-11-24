@@ -28,3 +28,9 @@ https://skolmaten.se/about/rss/furuhallskolan/
 This module simply shows an RSS feed, with some limitations (which are not a problem with skolmaten.se):
 1. Hard coded to update RSS feed once an hour.
 2. Always shows all entries in the RSS feed.
+3. Hard coded in Swedish.
+
+I still wanted to keep this as a separate module instead of a generic RSS module, too keep things simple and allow for future specific features.
+
+# To Do
+Handle invalid URL's.
