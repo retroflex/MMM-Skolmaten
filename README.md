@@ -1,5 +1,5 @@
 # MMM-Skolmaten
-A MagicMirror² module that shows school lunch menus in Sweden from www.skolmaten.se.
+A [MagicMirror²](https://github.com/MichMich/MagicMirror) module that shows school lunch menus in Sweden from www.skolmaten.se.
 
 # Install
 1. Clone repo into ../MagicMirror/modules/ folder.
