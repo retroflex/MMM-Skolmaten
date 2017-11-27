@@ -4,7 +4,7 @@ A [MagicMirror²](https://github.com/MichMich/MagicMirror) module that shows sch
 ![image](https://user-images.githubusercontent.com/25268023/33210971-a4bc7a02-d11c-11e7-9350-34819ec45f27.png)
 
 # Install
-1. Clone repo into ../MagicMirror/modules/ folder:
+1. Clone repo:
 ```
 	cd MagicMirror/modules/
 	git clone https://github.com/retroflex/MMM-Skolmaten
