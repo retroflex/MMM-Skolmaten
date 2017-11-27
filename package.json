@@ -1,27 +1,25 @@
 {
-  "name": "MMM-Skolmaten",
-  "version": "1.0.0",
-  "description": "A MagicMirror2 module that shows school lunch menus in Sweden from www.skolmaten.se.",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/retroflex/MMM-Skolmaten"
-  },
-  "keywords": [
-    "magic mirror",
-    "skolmat",
-    "skolmaten",
-    "sweden"
-  ],
-  "author": "Johan Persson",
-  "contributors": "https://github.com/retroflex/MMM-Skolmaten/graphs/contributors",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/retroflex/MMM-Skolmaten/issues"
-  },
-  "homepage": "https://github.com/retroflex/MMM-Skolmaten#readme",
-  "dependencies": {
-    "rss-parser": "latest"
-  }
-	"unirest": "latest"
-  }
+	"name": "MMM-Skolmaten",
+	"version": "1.0.0",
+	"description": "A MagicMirror2 module that shows school lunch menus in Sweden from www.skolmaten.se.",
+	"keywords": [
+		"magic mirror",
+		"skolmat",
+		"skolmaten",
+		"sweden"
+	],
+	"homepage": "https://github.com/retroflex/MMM-Skolmaten#readme",
+	"bugs": {
+		"url": "https://github.com/retroflex/MMM-Skolmaten/issues"
+	},
+	"license": "MIT",
+	"author": "Johan Persson",
+	"main": "MMM-Skolmaten.js",	
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/retroflex/MMM-Skolmaten"
+	},
+	"dependencies": {
+		"rss-parser": "latest"
+	}
 }
