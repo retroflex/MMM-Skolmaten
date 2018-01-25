@@ -20,6 +20,6 @@
 		"url": "https://github.com/retroflex/MMM-Skolmaten"
 	},
 	"dependencies": {
-		"rss-parser": "latest"
+		"rss-parser": "2.12.0"
 	}
 }
