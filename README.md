@@ -16,7 +16,7 @@ A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that sho
 2. Install dependencies:
 
 ```bash
- cd MMM-Skolmaten/
+ cd MMM-Skolmaten
  npm install
 ```
 
