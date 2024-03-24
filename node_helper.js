@@ -1,4 +1,4 @@
-/* Magic Mirror
+/* MagicMirror²
  * Module: MMM-Skolmaten
  *
  * By Johan Persson, https://github.com/retroflex

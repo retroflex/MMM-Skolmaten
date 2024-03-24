@@ -1,9 +1,9 @@
 {
 	"name": "MMM-Skolmaten",
 	"version": "1.0.0",
-	"description": "A MagicMirror2 module that shows school lunch menus in Sweden from www.skolmaten.se.",
+	"description": "A MagicMirror² module that shows school lunch menus in Sweden from www.skolmaten.se.",
 	"keywords": [
-		"magic mirror",
+		"MagicMirror",
 		"skolmat",
 		"skolmaten",
 		"sweden"
