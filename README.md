@@ -1,6 +1,6 @@
 # MMM-Skolmaten
 
-A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that shows school lunch menus in Sweden from <www.skolmaten.se>.
+A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that shows school lunch menus in Sweden from [www.skolmaten.se](https://www.skolmaten.se).
 
 ![screenshot](screenshot.png)
 
@@ -9,7 +9,7 @@ A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that sho
 1. Clone repo:
 
 ```bash
- cd MagicMirror/modules/
+ cd ~/MagicMirror/modules
  git clone https://github.com/retroflex/MMM-Skolmaten
 ```
 
@@ -20,7 +20,7 @@ A [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) module that sho
  npm install
 ```
 
-3. Add the module to the ../MagicMirror/config/config.js, example:
+3. Add the module to the `~/MagicMirror/config/config.js`, example:
 
 ```javascript
   {
@@ -39,6 +39,16 @@ Using the <https://skolmaten.se/furuhallskolan/rss/> URL will show lunch for the
 
 You can choose how many days should be shown by using another URL, although I haven't tested that. More info here:
 <https://skolmaten.se/about/rss/furuhallskolan/>
+
+## Update
+
+Go to the module’s folder inside MagicMirror modules folder and pull the latest version from GitHub and install:
+
+```bash
+cd ~/MagicMirror/modules/MMM-Skolmaten
+git pull
+npm ci
+```
 
 ## Details
 
