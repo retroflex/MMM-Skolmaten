@@ -47,7 +47,7 @@ Go to the module’s folder inside MagicMirror modules folder and pull the lates
 ```bash
 cd ~/MagicMirror/modules/MMM-Skolmaten
 git pull
-npm ci
+npm install
 ```
 
 ## Details
